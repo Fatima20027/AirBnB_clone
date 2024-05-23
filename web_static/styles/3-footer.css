@@ -10,3 +10,9 @@ footer {
     align-items: center;
     justify-content: center;
 }
+ .logo {
+    width: 150px;
+    height: 70px;
+    background: url("../images/logo.png") no-repeat center;
+    padding-left: 20px;
+ }
