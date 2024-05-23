@@ -4,6 +4,9 @@ footer {
     width: 100%;
     background-color: #00FF00;
     height: 50px;
+}
+
+p {
     text-align: center;
-    margin: 20px
+    margin: 20px;
 }
