@@ -60,11 +60,44 @@ button {
 }
 
 .popover {
+    display: none;
     width: 100%;
     background-color: #FAFAFA;
     border:#DDDDDD 1px solid ;
     border-radius: 4px;
     position: relative;
-    padding: 40px 1px 40px 25px;
-    margin-right: 1000px;
+    margin-top: 19px;
+    left: -40.7px;
+    padding: 20px 1px 40px 37px;
+    z-index: 1;
+
 }
+
+.popover , .popover ul {
+    list-style-type: none;
+}
+
+.locations:hover > .popover {
+    display: block;
+}
+
+.amenities:hover > .popover {
+    display: block;
+}
+
+.amenities > .popover > li {
+    padding-top: 5px;
+}
+
+.locations > .popover > li {
+    line-height: 20px;
+}
+
+.locations > .popover > li ul {
+    line-height: 20px;
+}
+
+.popover h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    }
